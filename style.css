@@ -2,6 +2,10 @@ body{
     background-color: black;
 }
 
+.left-side{
+    
+}
+
 .structured-content{
 display: flex;
 flex-direction: row;
@@ -10,13 +14,16 @@ justify-content: center;
 
 img{
 width: 400px;
-height:800px
+height: 800px;
+position: absolute;
 }
 
 
 .right-side{
     background-color: lightgray;
-    width: 750px
+    width: 750px;
+    margin-left: 0px;
+    height: 800px
 }
 
 .top-text{
@@ -27,6 +34,7 @@ height:800px
 
 .middle-section{
     background-color: white;
+    height: 275px
 }
 
 .form{
@@ -70,10 +78,67 @@ margin-right: 100px;
     }
 
 
-.password{
-    margin-right: 50px;
-    }
-        
-.confirm-password{
-    margin-right: 160px;
-        }
+.bottom-form{
+    margin-left: 30px;   
+}
+
+
+input{
+    border-radius: 5px;
+    height:20px
+}
+
+input:invalid:required {
+    border: 2px solid red;
+  }
+  
+  input:valid {
+    border: 2px solid black;
+  }
+
+input:focus{
+    border: 5px;
+    color: yellow;
+    box-shadow: 10px 5px 5px black;
+}
+
+
+
+  .create-account{
+    margin-top: 25px;
+    margin-left:25px;
+    width: 200px;
+    height:40px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: green;
+    color:white;
+  }
+
+  .below-create-account{
+    margin-left:25px;
+  }
+
+
+  .opacity{
+    background-color: black;
+    height:120px;
+    width: 400px;
+    position: relative;
+    opacity: 0.5;
+    margin-top: 160px;
+  }
+
+  .odin-logo{
+    width:90px;
+    height:auto;
+    margin-left: 100px
+  }
+
+  .odin{
+    color: white;
+    margin-left: 180px;
+    padding-top: 20px;
+    font-size: 70px;
+   
+  }
